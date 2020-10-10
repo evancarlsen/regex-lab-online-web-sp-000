@@ -14,7 +14,7 @@ end
 
 def words_five_letters_long(text)
   x= text.split()
-  y=x.grep(/^.{5}$//)
+  y=x.grep(/^.{5}$/)
   return y
 end
 
