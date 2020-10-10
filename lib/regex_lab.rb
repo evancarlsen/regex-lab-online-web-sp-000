@@ -24,6 +24,6 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- if(phone[0] == "\(")
+ if(phone[0] == "0")
    return phone
 end
