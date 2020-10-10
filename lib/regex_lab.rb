@@ -8,7 +8,7 @@ end
 def words_starting_with_un_and_ending_with_ing(text)
   x = text.split().grep(/^un/)
 
-  return x
+  return x[3]
 end
 
 def words_five_letters_long(text)
