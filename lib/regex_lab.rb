@@ -15,6 +15,7 @@ end
 def words_five_letters_long(text)
   x= text.split()
   y=x.grep(/\w{5}/)
+  return y
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
