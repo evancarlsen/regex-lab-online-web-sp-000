@@ -1,7 +1,7 @@
 
 
 def starts_with_a_vowel?(word)
-  x = (word[0].match(/[aeiouAEIOU] /))
+  x = (word[0].match(/[aeiouAEIOU]/))
   return (x != nil)
 end
 
