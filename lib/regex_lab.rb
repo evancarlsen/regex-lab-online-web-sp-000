@@ -25,4 +25,3 @@ end
 def valid_phone_number?(phone)
 
 end
-puts words_five_letters_long("extreme briny crepe parking snaps grouping snafu round dog be fork spoon")
