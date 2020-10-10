@@ -28,5 +28,3 @@ def valid_phone_number?(phone)
  y = x.match(/^.{10}$/)
  return (y != nil)
 end
-
-puts valid_phone_number?("\(999\)999 9999")
