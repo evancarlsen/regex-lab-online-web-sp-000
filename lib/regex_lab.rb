@@ -1,3 +1,6 @@
+starts_with_a_vowel("hello")
+starts_with_a_vowel("amaze")
+
 def starts_with_a_vowel?(word)
 puts(word[0].match(/[aeiou]/))
 end
