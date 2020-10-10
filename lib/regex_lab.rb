@@ -24,7 +24,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- x =  phone.tr('^0-9', '') 
+ x =  phone.tr('^0-9', '')
  y = x.grep(/^.{10}$/)
 end
 
