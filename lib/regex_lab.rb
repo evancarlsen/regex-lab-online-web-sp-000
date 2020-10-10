@@ -24,7 +24,7 @@ def first_word_capitalized_and_ends_with_punctuation?(text)
 end
 
 def valid_phone_number?(phone)
- return phone..scan(/\d+/)
+ return phone.scan(/\d+/)
 end
 
 puts valid_phone_number?("\(999\)999 9999")
