@@ -1,8 +1,8 @@
 
-starts_with_a_vowel?("hello")
-starts_with_a_vowel?("amaze")
+
 def starts_with_a_vowel?(word)
-puts(word[0].match(/[aeiou]/))
+  x = (word[0].match(/[aeiou]/)).length()
+  
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
@@ -20,3 +20,4 @@ end
 def valid_phone_number?(phone)
 
 end
+
