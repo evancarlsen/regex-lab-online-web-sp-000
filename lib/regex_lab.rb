@@ -19,5 +19,5 @@ end
 def valid_phone_number?(phone)
 
 end
-starts_with_a_vowel("hello")
-starts_with_a_vowel("amaze")
+starts_with_a_vowel?("hello")
+starts_with_a_vowel?("amaze")
